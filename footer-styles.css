@@ -1,0 +1,35 @@
+.footer{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f8f8f894;
+    width: 100%;
+    height: fit-content;
+}
+
+
+.link-mi-logo > img{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    object-fit: cover;
+}
+
+.footer  > .social-media-icons > a {
+    text-decoration: none ;
+    color: rgb(39, 48, 51);
+    margin-top: 10px;
+}
+
+.footer  > .social-media-icons > a:hover{
+    color: rgb(0 116 226);
+}
+
+.footer  > .social-media-icons{
+    margin-top: 10px;
+}
+
+.footer p{
+    color: rgb(0, 0, 0);
+}
